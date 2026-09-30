@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\coffeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\coffeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Coffee.cs",
+              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\Coffee.cs",
+              "RelativeDocumentMoniker": "MyCoffeeApp2\\Coffee.cs",
+              "ToolTip": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\Coffee.cs",
+              "RelativeToolTip": "MyCoffeeApp2\\Coffee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T02:39:04.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoffeeService.cs",
+              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\CoffeeService.cs",
+              "RelativeDocumentMoniker": "MyCoffeeApp2\\CoffeeService.cs",
+              "ToolTip": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\CoffeeService.cs",
+              "RelativeToolTip": "MyCoffeeApp2\\CoffeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T02:25:32.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MyCoffeeApp2\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MainPage.xaml",
+              "RelativeToolTip": "MyCoffeeApp2\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T02:18:37.419Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
