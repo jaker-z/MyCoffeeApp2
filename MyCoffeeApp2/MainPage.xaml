@@ -2,11 +2,16 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:model="clr-namespace:MyCoffeeApp2"
-             xmlns:viewmodels="clr-namespace:MyCoffeeApp2"
+             xmlns:viewmodels="clr-namespace:MyCoffeeApp2"         
              x:Class="MyCoffeeApp2.MainPage"
              x:DataType="viewmodels:MyCoffeeViewModel"
              Title="My Coffee App 2">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Command="{Binding AddCommand}"/>
+    </ContentPage.ToolbarItems>
+    
+    
     <CollectionView BackgroundColor="Transparent"
                     ItemsSource="{Binding Coffee}"
                     SelectionMode="None">
@@ -14,7 +19,7 @@
             <DataTemplate x:DataType="model:Coffee">
                 <SwipeView>
                     <SwipeView.RightItems>
-                        <SwipeItem Command="{Binding Source={RelativeSource AncestorType={x:Type local:MyCoffeeViewModel}}, Path=Remove}"
+                        <SwipeItem Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:MyCoffeeViewModel}}, Path=RemoveCommand}"
                                   CommandParameter="{Binding .}"
                                   IsDestructive="True"
                                   Text="Delete"/>

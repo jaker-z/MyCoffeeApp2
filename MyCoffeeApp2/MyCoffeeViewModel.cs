@@ -7,7 +7,7 @@ using MvvmHelpers.Commands;
 
 namespace MyCoffeeApp2
 {
-    public class MyCoffeeViewModel : ObservableObject
+    public partial class MyCoffeeViewModel : ObservableObject
     {
         public ObservableRangeCollection<Coffee> Coffee { get; set; }
         public AsyncCommand RefreshCommand { get; }
