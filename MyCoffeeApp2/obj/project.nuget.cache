@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4+WRXqaLans=",
+  "dgSpecHash": "33TP0R2+MNM=",
   "success": true,
   "projectFilePath": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MyCoffeeApp2.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\only1\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
     "C:\\Users\\only1\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\only1\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250909003\\microsoft.windowsappsdk.1.7.250909003.nupkg.sha512",
+    "C:\\Users\\only1\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\only1\\.nuget\\packages\\sourcegear.sqlite3\\3.53.3\\sourcegear.sqlite3.3.53.3.nupkg.sha512",
     "C:\\Users\\only1\\.nuget\\packages\\sqlite-net-pcl\\1.11.285\\sqlite-net-pcl.1.11.285.nupkg.sha512",
     "C:\\Users\\only1\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.1.11\\sqlitepclraw.bundle_green.2.1.11.nupkg.sha512",

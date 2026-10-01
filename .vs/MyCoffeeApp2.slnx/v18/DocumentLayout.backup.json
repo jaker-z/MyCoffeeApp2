@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\coffeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\coffeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0114705A-2C0C-4923-B02F-3B75E92AB547}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\coffeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\coffeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\mycoffeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\mycoffeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\coffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|c:\\users\\only1\\source\\repos\\mycoffeeapp2\\mycoffeeapp2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64850536-F779-E06E-6A36-920A74583925}|MyCoffeeApp2\\MyCoffeeApp2.csproj|solutionrelative:mycoffeeapp2\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +46,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Coffee.cs",
-              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\Coffee.cs",
-              "RelativeDocumentMoniker": "MyCoffeeApp2\\Coffee.cs",
-              "ToolTip": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\Coffee.cs",
-              "RelativeToolTip": "MyCoffeeApp2\\Coffee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T02:39:04.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CoffeeService.cs",
               "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\CoffeeService.cs",
               "RelativeDocumentMoniker": "MyCoffeeApp2\\CoffeeService.cs",
               "ToolTip": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\CoffeeService.cs",
               "RelativeToolTip": "MyCoffeeApp2\\CoffeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T02:25:32.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MyCoffeeApp2\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MainPage.xaml.cs",
+              "RelativeToolTip": "MyCoffeeApp2\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T01:58:50.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MainPage.xaml",
               "RelativeDocumentMoniker": "MyCoffeeApp2\\MainPage.xaml",
               "ToolTip": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MainPage.xaml",
               "RelativeToolTip": "MyCoffeeApp2\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-30T02:18:37.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyCoffeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MyCoffeeViewModel.cs",
+              "RelativeDocumentMoniker": "MyCoffeeApp2\\MyCoffeeViewModel.cs",
+              "ToolTip": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MyCoffeeViewModel.cs",
+              "RelativeToolTip": "MyCoffeeApp2\\MyCoffeeViewModel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T01:55:36.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Coffee.cs",
+              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\Coffee.cs",
+              "RelativeDocumentMoniker": "MyCoffeeApp2\\Coffee.cs",
+              "ToolTip": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\Coffee.cs",
+              "RelativeToolTip": "MyCoffeeApp2\\Coffee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T02:39:04.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MyCoffeeApp2\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MauiProgram.cs",
+              "RelativeToolTip": "MyCoffeeApp2\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T01:57:20.79Z",
               "EditorCaption": ""
             }
           ]

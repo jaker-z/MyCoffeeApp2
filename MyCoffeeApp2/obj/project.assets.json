@@ -510,6 +510,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "SourceGear.sqlite3/3.53.3": {
         "type": "package",
         "compile": {
@@ -3270,6 +3283,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "SourceGear.sqlite3/3.53.3": {
         "type": "package",
         "compile": {
@@ -5853,6 +5879,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "SourceGear.sqlite3/3.53.3": {
@@ -8440,6 +8479,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "SourceGear.sqlite3/3.53.3": {
         "type": "package",
         "compile": {
@@ -11023,6 +11075,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "SourceGear.sqlite3/3.53.3": {
@@ -13610,6 +13675,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "SourceGear.sqlite3/3.53.3": {
         "type": "package",
         "compile": {
@@ -16166,6 +16244,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.11.285": {
         "type": "package",
         "dependencies": {
@@ -16704,6 +16795,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "sqlite-net-pcl/1.11.285": {
@@ -17246,6 +17350,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.11.285": {
         "type": "package",
         "dependencies": {
@@ -17784,6 +17901,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "sqlite-net-pcl/1.11.285": {
@@ -18326,6 +18456,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.11.285": {
         "type": "package",
         "dependencies": {
@@ -18866,6 +19009,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.11.285": {
         "type": "package",
         "dependencies": {
@@ -19404,6 +19560,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "SourceGear.sqlite3/3.53.3": {
@@ -20235,6 +20404,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "SourceGear.sqlite3/3.53.3": {
         "type": "package",
         "compile": {
@@ -20796,6 +20978,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "SourceGear.sqlite3/3.53.3": {
@@ -21361,6 +21556,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "SourceGear.sqlite3/3.53.3": {
         "type": "package",
         "compile": {
@@ -21919,6 +22127,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "SourceGear.sqlite3/3.53.3": {
@@ -22482,6 +22703,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "SourceGear.sqlite3/3.53.3": {
@@ -23295,6 +23529,19 @@
           "runtimes/win-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
             "assetType": "native",
             "rid": "win-x86"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -24316,6 +24563,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "SourceGear.sqlite3/3.53.3": {
         "type": "package",
         "compile": {
@@ -25066,6 +25326,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "SourceGear.sqlite3/3.53.3": {
@@ -25820,6 +26093,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "SourceGear.sqlite3/3.53.3": {
         "type": "package",
         "compile": {
@@ -26567,6 +26853,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "SourceGear.sqlite3/3.53.3": {
@@ -27329,6 +27628,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "SourceGear.sqlite3/3.53.3": {
@@ -29553,6 +29865,27 @@
         "tools/net6.0/System.Text.Json.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Refractored.MvvmHelpers/1.6.2": {
+      "sha512": "pXiyT0ad3QI7IzZSSjVNliyhyyAe7lmNPdfAEgSrtjhF9twrYoKbBlTd58IJc67Fw8QmHEur8F9eBA4rj+BZAg==",
+      "type": "package",
+      "path": "refractored.mvvmhelpers/1.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net461/MvvmHelpers.dll",
+        "lib/net461/MvvmHelpers.pdb",
+        "lib/net461/MvvmHelpers.xml",
+        "lib/netstandard1.0/MvvmHelpers.dll",
+        "lib/netstandard1.0/MvvmHelpers.pdb",
+        "lib/netstandard1.0/MvvmHelpers.xml",
+        "lib/netstandard2.0/MvvmHelpers.dll",
+        "lib/netstandard2.0/MvvmHelpers.pdb",
+        "lib/netstandard2.0/MvvmHelpers.xml",
+        "refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+        "refractored.mvvmhelpers.nuspec"
       ]
     },
     "SourceGear.sqlite3/3.53.3": {
@@ -32169,6 +32502,7 @@
       "Microsoft.Extensions.Logging.Debug >= 10.0.0",
       "Microsoft.Maui.Controls >= 10.0.20",
       "Microsoft.NET.ILLink.Tasks >= 10.0.12",
+      "Refractored.MvvmHelpers >= 1.6.2",
       "SQLitePCLRaw.bundle_green >= 2.1.11",
       "sqlite-net-pcl >= 1.11.285"
     ],
@@ -32177,6 +32511,7 @@
       "Microsoft.Extensions.Logging.Debug >= 10.0.0",
       "Microsoft.Maui.Controls >= 10.0.20",
       "Microsoft.NET.ILLink.Tasks >= 10.0.12",
+      "Refractored.MvvmHelpers >= 1.6.2",
       "SQLitePCLRaw.bundle_green >= 2.1.11",
       "sqlite-net-pcl >= 1.11.285"
     ],
@@ -32185,6 +32520,7 @@
       "Microsoft.Extensions.Logging.Debug >= 10.0.0",
       "Microsoft.Maui.Controls >= 10.0.20",
       "Microsoft.NET.ILLink.Tasks >= 10.0.12",
+      "Refractored.MvvmHelpers >= 1.6.2",
       "SQLitePCLRaw.bundle_green >= 2.1.11",
       "sqlite-net-pcl >= 1.11.285"
     ],
@@ -32192,6 +32528,7 @@
       "CommunityToolkit.Mvvm >= 8.4.2",
       "Microsoft.Extensions.Logging.Debug >= 10.0.0",
       "Microsoft.Maui.Controls >= 10.0.20",
+      "Refractored.MvvmHelpers >= 1.6.2",
       "SQLitePCLRaw.bundle_green >= 2.1.11",
       "sqlite-net-pcl >= 1.11.285"
     ]
@@ -32285,6 +32622,10 @@
             "target": "Package",
             "version": "[10.0.12, )",
             "autoReferenced": true
+          },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.6.2, )"
           },
           "SQLitePCLRaw.bundle_green": {
             "target": "Package",
@@ -32615,6 +32956,10 @@
             "version": "[10.0.12, )",
             "autoReferenced": true
           },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.6.2, )"
+          },
           "SQLitePCLRaw.bundle_green": {
             "target": "Package",
             "version": "[2.1.11, )"
@@ -32944,6 +33289,10 @@
             "version": "[10.0.12, )",
             "autoReferenced": true
           },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.6.2, )"
+          },
           "SQLitePCLRaw.bundle_green": {
             "target": "Package",
             "version": "[2.1.11, )"
@@ -33267,6 +33616,10 @@
           "Microsoft.Maui.Controls": {
             "target": "Package",
             "version": "[10.0.20, )"
+          },
+          "Refractored.MvvmHelpers": {
+            "target": "Package",
+            "version": "[1.6.2, )"
           },
           "SQLitePCLRaw.bundle_green": {
             "target": "Package",

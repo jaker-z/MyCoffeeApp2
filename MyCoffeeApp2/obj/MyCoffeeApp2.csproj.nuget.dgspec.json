@@ -90,6 +90,10 @@
               "version": "[10.0.12, )",
               "autoReferenced": true
             },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.11, )"
@@ -418,6 +422,10 @@
               "target": "Package",
               "version": "[10.0.12, )",
               "autoReferenced": true
+            },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.6.2, )"
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
@@ -748,6 +756,10 @@
               "version": "[10.0.12, )",
               "autoReferenced": true
             },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.11, )"
@@ -1071,6 +1083,10 @@
             "Microsoft.Maui.Controls": {
               "target": "Package",
               "version": "[10.0.20, )"
+            },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.6.2, )"
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",

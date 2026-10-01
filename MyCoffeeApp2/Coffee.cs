@@ -5,7 +5,7 @@ using SQLite;
 
 namespace MyCoffeeApp2
 {
-    internal class Coffee
+    public class Coffee
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
