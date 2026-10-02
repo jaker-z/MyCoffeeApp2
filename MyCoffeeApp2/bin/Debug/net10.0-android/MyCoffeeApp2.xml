@@ -4,11 +4,73 @@
         <name>MyCoffeeApp2</name>
     </assembly>
     <members>
+        <member name="T:MyCoffeeApp2.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:MyCoffeeApp2.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:MyCoffeeApp2.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:MyCoffeeApp2.BaseViewModel.Title">
+            <inheritdoc cref="F:MyCoffeeApp2.BaseViewModel.title"/>
+        </member>
+        <member name="T:MyCoffeeApp2.MyCoffeeViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:MyCoffeeApp2.MyCoffeeViewModel.addCommand">
+            <summary>The backing field for <see cref="P:MyCoffeeApp2.MyCoffeeViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:MyCoffeeApp2.MyCoffeeViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MyCoffeeApp2.MyCoffeeViewModel.AddAsync"/>.</summary>
+        </member>
+        <member name="F:MyCoffeeApp2.MyCoffeeViewModel.removeCommand">
+            <summary>The backing field for <see cref="P:MyCoffeeApp2.MyCoffeeViewModel.RemoveCommand"/>.</summary>
+        </member>
+        <member name="P:MyCoffeeApp2.MyCoffeeViewModel.RemoveCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyCoffeeApp2.MyCoffeeViewModel.RemoveAsync(MyCoffeeApp2.Coffee)"/>.</summary>
+        </member>
+        <member name="F:MyCoffeeApp2.MyCoffeeViewModel.refreshCommand">
+            <summary>The backing field for <see cref="P:MyCoffeeApp2.MyCoffeeViewModel.RefreshCommand"/>.</summary>
+        </member>
+        <member name="P:MyCoffeeApp2.MyCoffeeViewModel.RefreshCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MyCoffeeApp2.MyCoffeeViewModel.RefreshAsync"/>.</summary>
+        </member>
         <member name="T:MyCoffeeApp2.Resource">
             <summary>
             Android Resource Designer class.
             Exposes the Android Resource designer assembly into the project Namespace.
             </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsNotBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsNotBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsNotBusy">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsNotBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
         </member>
     </members>
 </doc>

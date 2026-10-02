@@ -5,7 +5,7 @@ using SQLite;
 
 namespace MyCoffeeApp2
 {
-    public static class CoffeeService
+    public class CoffeeService
     {
         static SQLiteAsyncConnection db;
         static async Task Init()
