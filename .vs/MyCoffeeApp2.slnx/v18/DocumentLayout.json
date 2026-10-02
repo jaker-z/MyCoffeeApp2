@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "MyCoffeeApp2\\MainPage.xaml",
               "ToolTip": "C:\\Users\\only1\\source\\repos\\MyCoffeeApp2\\MyCoffeeApp2\\MainPage.xaml",
               "RelativeToolTip": "MyCoffeeApp2\\MainPage.xaml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBMAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-30T02:18:37.419Z",
               "IsPinned": true,
@@ -75,16 +75,15 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T01:55:36.714Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "MyCoffeeApp2\\CoffeeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T02:25:32.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T02:25:32.558Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "MyCoffeeApp2\\Coffee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T02:39:04.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-30T02:39:04.172Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "MyCoffeeApp2\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T01:57:20.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T01:57:20.79Z"
             }
           ]
         },

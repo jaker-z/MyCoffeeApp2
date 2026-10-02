@@ -7,47 +7,52 @@
              x:DataType="viewmodels:MyCoffeeViewModel"
              Title="My Coffee App 2">
 
-    <ContentPage.ToolbarItems>
+    <!--<ContentPage.ToolbarItems>
         <ToolbarItem Text="Add" Command="{Binding AddCommand}"/>
-    </ContentPage.ToolbarItems>
+    </ContentPage.ToolbarItems>-->
     
+    <VerticalStackLayout Margin="20">
+        <Label Text="Hello"/>
+        <Button Text="Add Coffee"
+                Command="{Binding AddCommand}"/>
+        <CollectionView BackgroundColor="Transparent"
+                ItemsSource="{Binding Coffee}"
+                SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Coffee">
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItem Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:MyCoffeeViewModel}}, Path=RemoveCommand}"
+                              CommandParameter="{Binding .}"
+                              IsDestructive="True"
+                              Text="Delete"/>
+                        </SwipeView.RightItems>
+                        <Grid Padding="0">
+                            <Frame CornerRadius="20"
+                                   HasShadow="True">
+                                <HorizontalStackLayout>
+                                    <Image Source="{Binding Image}"
+                                   WidthRequest="120"/>
+                                    <VerticalStackLayout>
+                                        <Label Text="{Binding Name}"
+                                               FontSize="Large"
+                                               VerticalTextAlignment="End"/>
+                                        <Label Text="{Binding Roaster}"
+                                               FontSize="Large"
+                                               VerticalOptions="Center"/>
+                                        <Label Text="{Binding Id}"
+                                               FontSize="Large"
+                                               VerticalOptions="Center"/>
+                                    </VerticalStackLayout>
+                                </HorizontalStackLayout>
+                            </Frame>
+                        </Grid>
+
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
     
-    <CollectionView BackgroundColor="Transparent"
-                    ItemsSource="{Binding Coffee}"
-                    SelectionMode="None">
-        <CollectionView.ItemTemplate>
-            <DataTemplate x:DataType="model:Coffee">
-                <SwipeView>
-                    <SwipeView.RightItems>
-                        <SwipeItem Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:MyCoffeeViewModel}}, Path=RemoveCommand}"
-                                  CommandParameter="{Binding .}"
-                                  IsDestructive="True"
-                                  Text="Delete"/>
-                    </SwipeView.RightItems>
-                    <Grid Padding="10">
-                        <Frame CornerRadius="20"
-                               HasShadow="True">
-                            <HorizontalStackLayout>
-                                <Image Source="{Binding Image}"
-                                       WidthRequest="66"/>
-                                <VerticalStackLayout>
-                                    <Label Text="{Binding Name}"
-                                           FontSize="Large"
-                                           VerticalOptions="Center"/>
-                                    <Label Text="{Binding Roaster}"
-                                           FontSize="Large"
-                                           VerticalOptions="Center"/>
-                                    <Label Text="{Binding Id}"
-                                           FontSize="Large"
-                                           VerticalOptions="Center"/>
-                                </VerticalStackLayout>
-                            </HorizontalStackLayout>
-                        </Frame>
-                    </Grid>
-                        
-                </SwipeView>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-    </CollectionView>
     
 </ContentPage>

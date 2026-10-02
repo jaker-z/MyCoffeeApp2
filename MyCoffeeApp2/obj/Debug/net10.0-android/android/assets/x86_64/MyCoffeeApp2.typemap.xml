@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="MyCoffeeApp2" mvid="4e777c7a5b6f4db38bbf2a1cbb250595">
+<api type="debug" assembly-name="MyCoffeeApp2" mvid="23354dcc4b0a47edb99944400c3c4c44">
   <java-to-managed>
     <entry java-name="crc640ff90bb77eaa4603/MainActivity" managed-name="MyCoffeeApp2.MainActivity, MyCoffeeApp2" managed-type-token-id="33554445" />
     <entry java-name="crc640ff90bb77eaa4603/MainApplication" managed-name="MyCoffeeApp2.MainApplication, MyCoffeeApp2" managed-type-token-id="33554446" />
