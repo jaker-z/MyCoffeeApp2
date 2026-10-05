@@ -1,10 +1,10 @@
-<api type="debug" assembly-name="MyCoffeeApp2" mvid="9bf0af83af7c4fbda6f270a0262c09e3">
+<api type="debug" assembly-name="MyCoffeeApp2" mvid="62d5e85f324c43eb88c44e7bb32d0b40">
   <java-to-managed>
-    <entry java-name="crc640ff90bb77eaa4603/MainActivity" managed-name="MyCoffeeApp2.MainActivity, MyCoffeeApp2" managed-type-token-id="33554448" />
-    <entry java-name="crc640ff90bb77eaa4603/MainApplication" managed-name="MyCoffeeApp2.MainApplication, MyCoffeeApp2" managed-type-token-id="33554449" />
+    <entry java-name="crc640ff90bb77eaa4603/MainActivity" managed-name="MyCoffeeApp2.MainActivity, MyCoffeeApp2" managed-type-token-id="33554450" />
+    <entry java-name="crc640ff90bb77eaa4603/MainApplication" managed-name="MyCoffeeApp2.MainApplication, MyCoffeeApp2" managed-type-token-id="33554451" />
   </java-to-managed>
   <managed-to-java>
-    <entry java-name="crc640ff90bb77eaa4603/MainActivity" managed-name="MyCoffeeApp2.MainActivity, MyCoffeeApp2" managed-type-token-id="33554448" />
-    <entry java-name="crc640ff90bb77eaa4603/MainApplication" managed-name="MyCoffeeApp2.MainApplication, MyCoffeeApp2" managed-type-token-id="33554449" />
+    <entry java-name="crc640ff90bb77eaa4603/MainActivity" managed-name="MyCoffeeApp2.MainActivity, MyCoffeeApp2" managed-type-token-id="33554450" />
+    <entry java-name="crc640ff90bb77eaa4603/MainApplication" managed-name="MyCoffeeApp2.MainApplication, MyCoffeeApp2" managed-type-token-id="33554451" />
   </managed-to-java>
 </api>

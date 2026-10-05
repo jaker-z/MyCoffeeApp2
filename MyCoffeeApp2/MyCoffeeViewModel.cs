@@ -42,18 +42,28 @@ namespace MyCoffeeApp2
                 IsBusy = true;
                 var coffees = await CoffeeService.GetCoffee();
 
+                Coffee.Clear();
+
                 foreach (var coffee in coffees)
                     Coffee.Add(coffee);
             }
             catch (Exception ex)
             {
                 Debug.WriteLine(ex);
-                await Shell.Current.DisplayAlertAsync("Error!", $"Unable to get monkeys: {ex.Message}", "OK");
+                await Shell.Current.DisplayAlertAsync("Error!", $"Unable to get coffees: {ex.Message}", "OK");
             }
             finally
             {
                 IsBusy = false;
             }
+        }
+
+        [RelayCommand]
+        async Task GoToDetailsAsync()
+        {
+            await Shell.Current.GoToAsync(nameof(CoffeeDetailsPage));
+
+            // add arguments to the above command
         }
 
 

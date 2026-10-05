@@ -17,8 +17,9 @@ namespace MyCoffeeApp2
 
             builder.Services.AddSingleton<MainPage>();
             builder.Services.AddSingleton<MyCoffeeViewModel>();
-            
 
+            builder.Services.AddTransient<CoffeeDetailsPage>();
+            builder.Services.AddTransient<CoffeeDetailsViewModel>();
 
 
 #if DEBUG

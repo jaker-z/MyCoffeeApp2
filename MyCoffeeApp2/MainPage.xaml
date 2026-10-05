@@ -12,18 +12,15 @@
     </ContentPage.ToolbarItems>-->
 
 
-    <Grid RowDefinitions="*,100">
-        <HorizontalStackLayout Grid.Row="1">
-            <Button Text="Add Coffee"
-                    Command="{Binding AddCommand}"
-                    HorizontalOptions="Fill"/>
-            <Button Text="Get Coffee"
-                    Command="{Binding RefreshCommand}"
-                    HorizontalOptions="Fill"/>
-        </HorizontalStackLayout>
+    <Grid RowDefinitions="*,100"
+          ColumnDefinitions="*,*"
+          ColumnSpacing="5"
+          Margin="20">
+        
         <CollectionView BackgroundColor="Transparent"
-                ItemsSource="{Binding Coffee}"
-                SelectionMode="None">
+                        Grid.ColumnSpan="2"
+                        ItemsSource="{Binding Coffee}"
+                        SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="model:Coffee">
                     <SwipeView>
@@ -35,10 +32,13 @@
                                    BackgroundColor="red"/>
                         </SwipeView.RightItems>
                         <Grid Padding="0"
-                           Margin="0, 10, 0, 10">
+                              Margin="0, 10, 0, 10">
                             <Frame CornerRadius="20"
                                    HasShadow="True"
                                    Background="{StaticResource Secondary}">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:MyCoffeeViewModel}}, Path=GoToDetailsCommand}"/>
+                                </Frame.GestureRecognizers>
                                 <HorizontalStackLayout Spacing="20">
                                     <Image Source="{Binding Image}"
                                            WidthRequest="120"/>
@@ -61,6 +61,27 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+        
+        <Button Text="Add Coffee"
+                Command="{Binding AddCommand}"
+                HorizontalOptions="Fill"
+                Grid.Column="0"
+                Grid.Row="1"/>
+        
+        <Button Text="Get Coffee"
+                Command="{Binding RefreshCommand}"
+                HorizontalOptions="Fill"
+                Grid.Column="1"
+                Grid.Row="1"/>
+
+        <ActivityIndicator IsVisible="{Binding IsBusy}"
+                           IsRunning="{Binding IsBusy}"
+                           HorizontalOptions="Fill"
+                           VerticalOptions="CenterAndExpand"
+                           Grid.RowSpan="2"
+                           Grid.ColumnSpan="2"/>
+
+
     </Grid>
  
 
