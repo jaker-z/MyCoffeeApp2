@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Diagnostics;
-
+ 
 
 namespace MyCoffeeApp2
 {
@@ -18,7 +18,9 @@ namespace MyCoffeeApp2
         {
             var name = await Shell.Current.DisplayPromptAsync("Coffee Name:", "Enter the name of the coffee.");
             var roaster = await Shell.Current.DisplayPromptAsync("Roaster Name:", "Enter the name of the roaster.");
-            await CoffeeService.AddCoffee(name, roaster);
+            var description = await Shell.Current.DisplayPromptAsync("Description:", "Enter the description of the coffee");
+            //await Shell.Current.DisplayPromptAsync();
+            await CoffeeService.AddCoffee(name, roaster, description);
             await RefreshAsync();
         }
 

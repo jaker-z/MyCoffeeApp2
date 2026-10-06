@@ -12,7 +12,7 @@
     </ContentPage.ToolbarItems>-->
 
 
-    <Grid RowDefinitions="*,100"
+    <Grid RowDefinitions="*,80"
           ColumnDefinitions="*,*"
           ColumnSpacing="5"
           RowSpacing="10"
@@ -66,12 +66,14 @@
         
         <Button Text="Add Coffee"
                 Command="{Binding AddCommand}"
+                FontSize="Medium"
                 HorizontalOptions="Fill"
                 Grid.Column="0"
                 Grid.Row="1"/>
         
         <Button Text="Get Coffee"
                 Command="{Binding RefreshCommand}"
+                FontSize="Medium"
                 HorizontalOptions="Fill"
                 Grid.Column="1"
                 Grid.Row="1"/>

@@ -10,8 +10,10 @@
     <VerticalStackLayout 
         Margin="20"
         Spacing="10">
+        <BoxView BackgroundColor="{StaticResource Secondary}"
+                 HeightRequest="120"/>
         <Label
-            Text="Something about the coffee"
+            Text="{Binding Coffee.Description}"
             FontSize="18"/>
         <Button
             Text="Okay"/>

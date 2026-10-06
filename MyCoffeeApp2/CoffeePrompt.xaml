@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyCoffeeApp2.CoffeePrompt"
+             Title="CoffeePrompt">
+
+    <VerticalStackLayout>
+        <Label Text="Add Coffee:"/>
+        <Entry x:Name="NameInput" Placeholder="Name"/>
+        <Entry x:Name="RoasterInput" Placeholder="Roaster"/>
+        <Entry x:Name="DescriptionInput" Placeholder="Description"/>
+        <Button Text="Create" Clicked="OnSubmitClicked"/>
+    </VerticalStackLayout>
+    
+</ContentPage>
