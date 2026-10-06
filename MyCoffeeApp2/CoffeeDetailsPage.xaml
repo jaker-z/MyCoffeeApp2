@@ -4,14 +4,17 @@
              xmlns:model="clr-namespace:MyCoffeeApp2"
              xmlns:viewmodel="clr-namespace:MyCoffeeApp2"
              x:Class="MyCoffeeApp2.CoffeeDetailsPage"
-             x:DataType="viewmodel:CoffeeDetailsPage"
-             Title="CoffeeDetailsPage">
+             x:DataType="viewmodel:CoffeeDetailsViewModel"
+             Title="{Binding Coffee.Name}">
     
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <VerticalStackLayout 
+        Margin="20"
+        Spacing="10">
+        <Label
+            Text="Something about the coffee"
+            FontSize="18"/>
+        <Button
+            Text="Okay"/>
     </VerticalStackLayout>
 
 </ContentPage>

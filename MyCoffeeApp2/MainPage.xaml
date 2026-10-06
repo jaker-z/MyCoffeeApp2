@@ -15,6 +15,7 @@
     <Grid RowDefinitions="*,100"
           ColumnDefinitions="*,*"
           ColumnSpacing="5"
+          RowSpacing="10"
           Margin="20">
         
         <CollectionView BackgroundColor="Transparent"
@@ -32,16 +33,17 @@
                                    BackgroundColor="red"/>
                         </SwipeView.RightItems>
                         <Grid Padding="0"
-                              Margin="0, 10, 0, 10">
+                              Margin="0, 5, 0, 5">
                             <Frame CornerRadius="20"
                                    HasShadow="True"
                                    Background="{StaticResource Secondary}">
                                 <Frame.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:MyCoffeeViewModel}}, Path=GoToDetailsCommand}"/>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:MyCoffeeViewModel}}, Path=GoToDetailsCommand}"
+                                                          CommandParameter="{Binding .}"/>
                                 </Frame.GestureRecognizers>
                                 <HorizontalStackLayout Spacing="20">
                                     <Image Source="{Binding Image}"
-                                           WidthRequest="120"/>
+                                           WidthRequest="80"/>
                                     <VerticalStackLayout Spacing="5">
                                         <Label Text="{Binding Name}"
                                                FontSize="Large"

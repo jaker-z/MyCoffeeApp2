@@ -5,8 +5,6 @@ using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Diagnostics;
-//using MvvmHelpers;
-//using MvvmHelpers.Commands;
 
 
 namespace MyCoffeeApp2
@@ -59,11 +57,13 @@ namespace MyCoffeeApp2
         }
 
         [RelayCommand]
-        async Task GoToDetailsAsync()
+        async Task GoToDetailsAsync(Coffee coffee)
         {
-            await Shell.Current.GoToAsync(nameof(CoffeeDetailsPage));
-
-            // add arguments to the above command
+            await Shell.Current.GoToAsync(nameof(CoffeeDetailsPage), true, 
+                new Dictionary<string, object>
+                {
+                    { "Coffee", coffee }
+                });
         }
 
 

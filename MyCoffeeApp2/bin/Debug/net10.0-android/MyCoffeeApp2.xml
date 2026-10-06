@@ -47,7 +47,7 @@
             <summary>The backing field for <see cref="P:MyCoffeeApp2.MyCoffeeViewModel.GoToDetailsCommand"/>.</summary>
         </member>
         <member name="P:MyCoffeeApp2.MyCoffeeViewModel.GoToDetailsCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MyCoffeeApp2.MyCoffeeViewModel.GoToDetailsAsync"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyCoffeeApp2.MyCoffeeViewModel.GoToDetailsAsync(MyCoffeeApp2.Coffee)"/>.</summary>
         </member>
         <member name="T:MyCoffeeApp2.Resource">
             <summary>
