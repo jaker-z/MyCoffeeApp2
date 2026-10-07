@@ -24,6 +24,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="F:MyCoffeeApp2.MyCoffeeViewModel.addCommand">
             <summary>The backing field for <see cref="P:MyCoffeeApp2.MyCoffeeViewModel.AddCommand"/>.</summary>
@@ -36,6 +37,12 @@
         </member>
         <member name="P:MyCoffeeApp2.MyCoffeeViewModel.RemoveCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyCoffeeApp2.MyCoffeeViewModel.RemoveAsync(MyCoffeeApp2.Coffee)"/>.</summary>
+        </member>
+        <member name="F:MyCoffeeApp2.MyCoffeeViewModel.updateCommand">
+            <summary>The backing field for <see cref="P:MyCoffeeApp2.MyCoffeeViewModel.UpdateCommand"/>.</summary>
+        </member>
+        <member name="P:MyCoffeeApp2.MyCoffeeViewModel.UpdateCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MyCoffeeApp2.MyCoffeeViewModel.UpdateAsync(MyCoffeeApp2.Coffee)"/>.</summary>
         </member>
         <member name="F:MyCoffeeApp2.MyCoffeeViewModel.refreshCommand">
             <summary>The backing field for <see cref="P:MyCoffeeApp2.MyCoffeeViewModel.RefreshCommand"/>.</summary>

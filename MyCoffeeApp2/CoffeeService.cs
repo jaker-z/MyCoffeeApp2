@@ -35,6 +35,13 @@ namespace MyCoffeeApp2
             var id = await db.InsertAsync(coffee);
         }
 
+        public static async Task UpdateCoffee(Coffee coffee)
+        {
+            await Init();
+
+            await db.UpdateAsync(coffee);
+        }
+
         public static async Task RemoveCoffee(int id)
         {
             await Init();

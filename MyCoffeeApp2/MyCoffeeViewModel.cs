@@ -19,7 +19,7 @@ namespace MyCoffeeApp2
             var name = await Shell.Current.DisplayPromptAsync("Coffee Name:", "Enter the name of the coffee.");
             var roaster = await Shell.Current.DisplayPromptAsync("Roaster Name:", "Enter the name of the roaster.");
             var description = await Shell.Current.DisplayPromptAsync("Description:", "Enter the description of the coffee");
-            //await Shell.Current.DisplayPromptAsync();
+
             await CoffeeService.AddCoffee(name, roaster, description);
             await RefreshAsync();
         }
@@ -28,6 +28,27 @@ namespace MyCoffeeApp2
         async Task RemoveAsync(Coffee coffee)
         {
             await CoffeeService.RemoveCoffee(coffee.Id);
+            await RefreshAsync();
+        }
+
+        [RelayCommand]
+        async Task UpdateAsync(Coffee coffee)
+        {
+            var name = await Shell.Current.DisplayPromptAsync("Coffee Name:", "Enter the name of the coffee.");
+            var roaster = await Shell.Current.DisplayPromptAsync("Roaster Name:", "Enter the name of the roaster.");
+            var description = await Shell.Current.DisplayPromptAsync("Description:", "Enter the description of the coffee");
+            var image = "https://img.magnific.com/premium-vector/pixel-art-illustration-mug-coffee-pixelated-mug-coffee-mug-pixelated-pixel-art-game_1038602-1101.jpg?semt=ais_hybrid&w=740&q=80";
+
+            var updatedCoffee = new Coffee
+            {
+                Id = coffee.Id,
+                Name = name,
+                Roaster = roaster,
+                Description = description,
+                Image = image
+            };
+
+            await CoffeeService.UpdateCoffee(updatedCoffee);
             await RefreshAsync();
         }
 

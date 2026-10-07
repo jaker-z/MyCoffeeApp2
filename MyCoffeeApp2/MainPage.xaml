@@ -31,6 +31,11 @@
                                    IsDestructive="True"
                                    Text="Delete"
                                    BackgroundColor="red"/>
+                            <SwipeItem Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:MyCoffeeViewModel}}, Path=UpdateCommand}"
+                                   CommandParameter="{Binding .}"
+                                   IsDestructive="True"
+                                   Text="Update"
+                                   BackgroundColor="MediumPurple"/>
                         </SwipeView.RightItems>
                         <Grid Padding="0"
                               Margin="0, 5, 0, 5">
